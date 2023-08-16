@@ -141,6 +141,7 @@ def good_tool() -> None:
 -- 3. 崩坏学园2
 -- 4. 未定事件簿
 -- 5. 米游社
+-- 6. 星穹铁道
 \n-- 0. 返回功能选择界面\
 """)
 
@@ -156,6 +157,8 @@ def good_tool() -> None:
             game = "nxx"
         elif choice == "5":
             game = "bbs"
+        elif choice == "6":
+            game = "hkrpg"
         elif choice == "0":
             return
         else:
